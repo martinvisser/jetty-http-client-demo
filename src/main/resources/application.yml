@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: warn
+    com.example: info
+
+spring:
+  application:
+    name: jetty-http-client
+  cloud:
+    config:
+      enabled: false
+  threads:
+    virtual:
+      enabled: true
